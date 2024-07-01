@@ -11,7 +11,7 @@ export class SensorService {
 
     if (error) {
       throw {
-        error: error.details[0].message,
+        error: 'Datos no validos',
         type: 'ValidationError',
       };
     }
